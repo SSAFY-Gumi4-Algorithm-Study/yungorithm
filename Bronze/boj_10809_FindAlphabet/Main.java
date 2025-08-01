@@ -1,36 +1,29 @@
-package boj_2920_Notes;
+package boj_10809_FindAlphabet;
 
-import java.util.Arrays;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class Main {
 	
 	public static void main(String[] args) throws Exception {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
+//		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		int[] notes = new int[8];
-		for(int i = 0; i < notes.length; i++) {
-			notes[i] = Integer.parseInt(st.nextToken());
+		char[] ch = br.readLine().toCharArray();
+		int[] alphabet = new int[26];
+		for(int i = 0; i < alphabet.length; i++) {
+			alphabet[i] = -1;
 		}
 		
-		int[] sub = new int[7];
-		int[] arr1 = { -1, -1, -1, -1, -1, -1, -1 };
-		int[] arr2 = { 1, 1, 1, 1, 1, 1, 1 };
-		
-		for(int i = 0; i < sub.length; i++) {
-			sub[i] = notes[i] - notes[i + 1];
+		for(int i = 0; i < ch.length; i++) {
+			if(alphabet[ch[i] - 97] == -1) {
+				alphabet[ch[i] - 97] = i;
+			}
 		}
 		
-		if(Arrays.equals(arr1, sub) == true) {
-			System.out.println("ascending");
-		} else if(Arrays.equals(arr2, sub) == true) {
-			System.out.println("descending");
-		} else {
-			System.out.println("mixed");
+		for(int i = 0; i < alphabet.length; i++) {
+			System.out.print(alphabet[i] + " ");
 		}
 		
 	}
