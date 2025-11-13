@@ -1,0 +1,35 @@
+name: Sync README from another repo
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout my repo
+        uses: actions/checkout@v4
+        # ⚠️ persist-credentials 생략 → 기본값 true → GITHUB_TOKEN 사용됨
+
+      - name: Download upstream README
+        run: |
+          curl -L https://raw.githubusercontent.com/SSAFY-Gumi4-Algorithm-Study/.github/main/profile/README.md \
+            -o upstream_README.md
+
+      - name: Update README if changed
+        run: |
+          if [ ! -f README.md ] || ! cmp -s README.md upstream_README.md; then
+            mv upstream_README.md README.md
+
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git add README.md
+            git commit -m "README 자동 동기화" || echo "No changes to commit"
+            git push
+          else
+            echo "README is already up to date."
+          fi
