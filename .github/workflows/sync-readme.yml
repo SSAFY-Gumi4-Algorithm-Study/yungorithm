@@ -1,4 +1,4 @@
-name: Sync README from another repo
+name: Sync README
 
 on:
   schedule:
