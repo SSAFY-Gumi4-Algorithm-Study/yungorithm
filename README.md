@@ -18,6 +18,7 @@
 
 ## 📌 공통 문제
 
+**2025**
 | 주차       | 문제 번호 | 난이도 | 문제 |
 |------------|-----------|--------|------|
 | 8월 1주차  | 1012  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/>  | [유기농 배추](https://www.acmicpc.net/problem/1012) |
@@ -38,8 +39,6 @@
 | 11월 2주차  | 1781 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | [컵라면](https://www.acmicpc.net/problem/1781) |
 | 11월 3주차  | 6549 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/16.svg"/> | [히스토그램에서 가장 큰 직사각형](https://www.acmicpc.net/problem/6549) |
 | 11월 4주차  | 4889 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [안정적인 문자열](https://www.acmicpc.net/problem/4889) |
-| 12월 1주차  | 1976 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [여행 가자](https://www.acmicpc.net/problem/1976) |
-| 12월 2주차  | 9328 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | [열쇠](https://www.acmicpc.net/problem/9328) |
 
 <br>
 
