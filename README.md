@@ -5,12 +5,15 @@
 
 <br>
 
-[📋 문제 풀이 체크 Notion](https://www.notion.so/292d9e51e25380f3b596d26b73b96d46?source=copy_link)
+[📋 문제 풀이 체크 Notion](https://www.notion.so/2f1b062c3546805f90acc23909cbd9a3)
+
+[💯 백준 채점 현황](https://www.acmicpc.net/status?group_id=24213)
+
 | 📂 [이용문](https://github.com/SSAFY-Gumi4-Algorithm-Study/mungorithm) | 📂 [윤진원](https://github.com/SSAFY-Gumi4-Algorithm-Study/yungorithm)|
 |:--:|:--:|
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=cocoyi00&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=dnj1510&theme=warm) |
-| **📂 [최영은](https://github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm)** | **📂 [황효주](https://github.com/SSAFY-Gumi4-Algorithm-Study/hyogorithm)** |
-| ![mazandi profile](http://mazandi.herokuapp.com/api?handle=y_e_99&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=gywn83&theme=warm) |
+| **📂 [김지호](https://github.com/SSAFY-Gumi4-Algorithm-Study/hogorithm)** | **📂 [황효주](https://github.com/SSAFY-Gumi4-Algorithm-Study/hyogorithm)** |
+| ![mazandi profile](http://mazandi.herokuapp.com/api?handle=kjh_simon&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=gywn83&theme=warm) |
 | **📂 [김현수](https://github.com/SSAFY-Gumi4-Algorithm-Study/baekgorithm)** | **📂 [강지석](https://github.com/SSAFY-Gumi4-Algorithm-Study/jigorithm)** |
 | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=wshyhs&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=rkdwltjr5876&theme=warm) |
 
@@ -54,68 +57,92 @@
 <br>
 
 ## 📅 진행 방식
+ ### ✅ 일주일 中 3일치 풀기
+  - 하루에 몰아서 풀기 불가능합니다.
+  - 하루치 인정 기준
+    - 백준 실버 1~2: 2문제
+    - 백준 골드 이상: 1문제
+    - 프로그래머스 레벨 2: 2문제
+    - 레벨 3 이상: 1문제
+ - 각자 자신의 레포지토리에 풀이 코드를 업로드합니다.
+ - 노션에 푼 문제와 티어를 기록합니다.
+ - 마감 기한은 월요일 오전 2시까지입니다.
 
-### ✅ 평일 매일 1문제 풀이
+ ## 💸 패널티
+ 
+ * 하루치 당 5000원
+ * 하루에 몰아서 푼 경우 2500원
+    * 예) 토요일에 골드 1문제, 일요일에 골드 2문제 -> 2500원
+    * 예) 일요일에 골드 2문제 -> 7500원
+ * 문제 풀기, 깃허브 업로드, 노션 기록까지가 하루치입니다. 하나라도 하지 않을 시 하루치가 인정되지 않아서 벌금을 내야합니다.
+ * 월차: 한 달에 1회 사용 가능 (최소 이틀 전 공유 필수)  
+ 
 
-* 백준 티어 기준으로 문제를 분배합니다:
+<details>
+   <summary>1학기 진행 방식</summary>
 
-  * 브론즈: 5문제
-  * 실버 3\~5: 3문제
-  * 실버 1\~2: 2문제
-  * 골드: 1문제
-  * 플래티넘 이상: 1문제당 2일
-
-* 각자 자신의 디렉토리에 풀이 코드를 업로드합니다.
-
-### 📝 주 1회 공통 문제 풀이 & 리뷰
-* 대상 문제: 실버2 ~ 골드
-* 리뷰 방법: 다른 스터디원의 레포 방문 → 코드 확인 후 GitHub PR 코멘트로 피드백
-
-### ⏰ 제출 마감
-| 구분 | 마감 시간 |
-|------|-----------|
-| 평일 매일 1문제 | 다음날 오전 2시 |
-| 공통 문제 | 해당 주 일요일까지 (월요일 오전 2시까지 허용) |
-| 리뷰 | 공통 문제를 푼 주의 다음 주 일요일까지 (월요일 오전 2시까지 허용) |
-
-<br>
-
-## 💸 패널티
-
-* **미제출 시 패널티**: 5,000원
-* **월차:** 한 달에 1회 사용 가능 (최소 이틀 전 공유 필수)  
-
-### ⚠️ 주의사항
-* 패널티를 낸 후에도 미제출한 공통 문제 풀이 및 리뷰는 제출해야 합니다.  
-  * 패널티를 낸 이후 **일주일 내에** 해당 과제를 모두 완료하지 못할 경우, **추가로 5,000원의 벌금이 부과됩니다.**
-* 문제는 풀었는데, 레포에 업로드하지 않으면 패널티 💸
-* 공통 문제는 풀었는데, 리드미를 작성하지 않았거나 PR을 생성하지 않았을 경우 패널티 💸
-* 해당 주차 코드 리뷰를 건너뛰고 다음 주 리뷰를 하면 패널티 💸
-
-<br>
-
-## 📢 공통 문제 코드 작성 및 리뷰 방법
-1. 브랜치 생성 <br>
-브랜치 이름은 [문제번호. 문제이름]과 같은 형식으로 생성합니다. <br>
-👉 1012. 유기농 배추
-
-2.  코드 및 풀이 작성 <br>
-생성한 브랜치에 코드 파일과 문제 설명/풀이 과정을 정리한 README.md를 추가합니다. <br>
-이후 PR 설명란에 풀이 과정을 작성해도 됩니다. <br>
-포함 내용 예시 👉 문제 풀이, 주요 로직 설명, 어려웠던 점 <br>
-
-3. Pull Request(PR) 생성 <br>
-`main` 브랜치로 PR을 생성합니다. <br>
-PR 제목은 브랜치명과 동일하게 작성합니다. <br>
-👉 1012. 유기농 배추 <br>
-
-4. 코드 리뷰 <br>
-리뷰어가 PR에 리뷰 코멘트를 남깁니다. <br>
-이미 리뷰가 남겨져있다면 다른 사람의 PR에 남깁니다. <br>
-
-5. 머지 <br>
-리뷰 기간이 끝나면 PR을 Merge 합니다. <br>
-<br>
+ ### ✅ 평일 매일 1문제 풀이
+ 
+ * 백준 티어 기준으로 문제를 분배합니다:
+ 
+   * 브론즈: 5문제
+   * 실버 3\~5: 3문제
+   * 실버 1\~2: 2문제
+   * 골드: 1문제
+   * 플래티넘 이상: 1문제당 2일
+ 
+ * 각자 자신의 디렉토리에 풀이 코드를 업로드합니다.
+ 
+ ### 📝 주 1회 공통 문제 풀이 & 리뷰
+ * 대상 문제: 실버2 ~ 골드
+ * 리뷰 방법: 다른 스터디원의 레포 방문 → 코드 확인 후 GitHub PR 코멘트로 피드백
+ 
+ ### ⏰ 제출 마감
+ | 구분 | 마감 시간 |
+ |------|-----------|
+ | 평일 매일 1문제 | 다음날 오전 2시 |
+ | 공통 문제 | 해당 주 일요일까지 (월요일 오전 2시까지 허용) |
+ | 리뷰 | 공통 문제를 푼 주의 다음 주 일요일까지 (월요일 오전 2시까지 허용) |
+ 
+ <br>
+ 
+ ## 💸 패널티
+ 
+ * **미제출 시 패널티**: 5,000원
+ * **월차:** 한 달에 1회 사용 가능 (최소 이틀 전 공유 필수)  
+ 
+ ### ⚠️ 주의사항
+ * 패널티를 낸 후에도 미제출한 공통 문제 풀이 및 리뷰는 제출해야 합니다.  
+   * 패널티를 낸 이후 **일주일 내에** 해당 과제를 모두 완료하지 못할 경우, **추가로 5,000원의 벌금이 부과됩니다.**
+ * 문제는 풀었는데, 레포에 업로드하지 않으면 패널티 💸
+ * 공통 문제는 풀었는데, 리드미를 작성하지 않았거나 PR을 생성하지 않았을 경우 패널티 💸
+ * 해당 주차 코드 리뷰를 건너뛰고 다음 주 리뷰를 하면 패널티 💸
+ 
+ <br>
+ 
+ ## 📢 공통 문제 코드 작성 및 리뷰 방법
+ 1. 브랜치 생성 <br>
+ 브랜치 이름은 [문제번호. 문제이름]과 같은 형식으로 생성합니다. <br>
+ 👉 1012. 유기농 배추
+ 
+ 2.  코드 및 풀이 작성 <br>
+ 생성한 브랜치에 코드 파일과 문제 설명/풀이 과정을 정리한 README.md를 추가합니다. <br>
+ 이후 PR 설명란에 풀이 과정을 작성해도 됩니다. <br>
+ 포함 내용 예시 👉 문제 풀이, 주요 로직 설명, 어려웠던 점 <br>
+ 
+ 3. Pull Request(PR) 생성 <br>
+ `main` 브랜치로 PR을 생성합니다. <br>
+ PR 제목은 브랜치명과 동일하게 작성합니다. <br>
+ 👉 1012. 유기농 배추 <br>
+ 
+ 4. 코드 리뷰 <br>
+ 리뷰어가 PR에 리뷰 코멘트를 남깁니다. <br>
+ 이미 리뷰가 남겨져있다면 다른 사람의 PR에 남깁니다. <br>
+ 
+ 5. 머지 <br>
+ 리뷰 기간이 끝나면 PR을 Merge 합니다. <br>
+ <br>
+</details>
 
 ---
 
@@ -123,8 +150,8 @@ PR 제목은 브랜치명과 동일하게 작성합니다. <br>
   <summary>🏅 명예 스터디원</summary>
   
  
-  | 📂 [김도영](https://github.com/SSAFY-Gumi4-Algorithm-Study/Dogorithm) |
-  |:--:|
-  | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=kwat1&theme=warm) |
+  | 📂 [김도영](https://github.com/SSAFY-Gumi4-Algorithm-Study/Dogorithm) | 📂 [최영은](https://github.com/SSAFY-Gumi4-Algorithm-Study/choigorithm) |
+  |:--:|:--:|
+  | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=kwat1&theme=warm) | ![mazandi profile](http://mazandi.herokuapp.com/api?handle=y_e_99&theme=warm) |
 
 </details>
